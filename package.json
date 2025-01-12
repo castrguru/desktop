@@ -1,7 +1,9 @@
 {
-  "name": "creator",
-  "private": true,
-  "version": "0.1.0",
+  "name": "castrguru-creator",
+  "license": "MIT",
+  "version": "25.1.12",
+  "description": "A complete low-no code solution for frame building on Farcaster.",
+  "author": "Castr GÜRŲ",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -10,15 +12,15 @@
     "tauri": "tauri"
   },
   "dependencies": {
-    "vue": "^3.5.13",
-    "@tauri-apps/api": "^2",
-    "@tauri-apps/plugin-opener": "^2"
+    "vue": "3.5.13",
+    "@tauri-apps/api": "2",
+    "@tauri-apps/plugin-opener": "2"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "^5.2.1",
+    "@vitejs/plugin-vue": "5.2.1",
     "typescript": "~5.6.2",
-    "vite": "^6.0.3",
-    "vue-tsc": "^2.1.10",
-    "@tauri-apps/cli": "^2"
+    "vite": "6.0.3",
+    "vue-tsc": "2.1.10",
+    "@tauri-apps/cli": "2"
   }
 }
