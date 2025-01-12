@@ -17,8 +17,8 @@ https://warpcast.com/jpfraneto.eth/0xb4974685
 https://warpcast.com/~/channel/weeklyhackathon
 <br />_(farcaster channel)_
 
-Hackathons have always been one of my greatest passions in life.
-<br />[— @shomari.eth](https://warpcast.com/shomari.eth)
+  Hackathons have always been one of my greatest passions in life.
+  <br />[— @shomari.eth](https://warpcast.com/shomari.eth)
 
 
 ## Preparation
