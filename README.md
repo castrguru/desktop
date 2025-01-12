@@ -62,10 +62,19 @@ this could unlock?
 ### Judging Criteria
 - [ ] Production readiness and deployment quality
 - [x] How quickly can someone go from zero to their first Frame?
-<br />__↳ It takes under 60 seconds from Creator (app) launch ⇨ to an automated production deployment _(e.g. Orbiter, Netlify, Vercel, etc)_ ⇨ to a publicly-accessible Frame splash screen__
+<br />__↳ It takes under 60 seconds from Creator (app) launch ⇨ to an automated production deployment _(e.g. Orbiter, Netlify, Vercel, etc)_ ⇨ to a publicly-accessible Frame splash screen.__
 - [ ] Does it make Frames v2 feel accessible and exciting?
 - [ ] Creative use of Frame v2 features
 - [ ] Overall user experience and design. Mobile friendliness
+
+### Inspiration Starting Points
+- Show how Frames can interact with users
+- Demonstrate wallet connections and the difference between interacting with your app from
+a frame -inside a farcaster client- or through a browser. What changes? What different
+elements do you have access to as a developer? What is the power of those?
+- Include a "build your first frame" tutorial
+<br />__↳ [My First Frame [ castr.guru/guides/my-1st-frame ]](https://castr.guru/guides/my-1st-frame/) is an interactive guide that offers a low- to no-code, step-by-step walk-through for building and deploying your first Farcaster frame.__
+- Add some "look what you can build" examples
 
 ### $HACKATHON Token Details
 
