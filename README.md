@@ -73,7 +73,7 @@ this could unlock?
 a frame -inside a farcaster client- or through a browser. What changes? What different
 elements do you have access to as a developer? What is the power of those?
 - Include a "build your first frame" tutorial
-<br />__↳ [My First Frame [ castr.guru/guides/my-1st-frame ]](https://castr.guru/guides/my-1st-frame/) is an interactive guide that offers a low- to no-code, step-by-step walk-through for building and deploying your first Farcaster frame.__
+<br />__↳ [My 1st Frame [ castr.guru/guides/my-1st-frame ]](https://castr.guru/guides/my-1st-frame/) is an interactive guide that offers a low- to no-code, step-by-step walk-through for building and deploying your first Farcaster frame.__
 - Add some "look what you can build" examples
 
 ### $HACKATHON Token Details
