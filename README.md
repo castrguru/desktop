@@ -68,13 +68,13 @@ this could unlock?
 - [ ] Overall user experience and design. Mobile friendliness
 
 ### Inspiration Starting Points
-- Show how Frames can interact with users
-- Demonstrate wallet connections and the difference between interacting with your app from
+- [ ] Show how Frames can interact with users
+- [ ] Demonstrate wallet connections and the difference between interacting with your app from
 a frame -inside a farcaster client- or through a browser. What changes? What different
 elements do you have access to as a developer? What is the power of those?
-- Include a "build your first frame" tutorial
+- [x] Include a "build your first frame" tutorial
 <br />__↳ [My 1st Frame [ castr.guru/guides/my-1st-frame ]](https://castr.guru/guides/my-1st-frame/) is an interactive guide that offers a low- to no-code, step-by-step walk-through for building and deploying your first Farcaster frame.__
-- Add some "look what you can build" examples
+- [ ] Add some "look what you can build" examples
 
 ### $HACKATHON Token Details
 
