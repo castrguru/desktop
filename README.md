@@ -9,7 +9,7 @@ Desktop application for Windows, macOS and Linux users.
 
 > _hackathons have always been one of my greatest passions in life_
 <br />_i still can't believe Farcaster is crazy enough to make it a WEEKLY thing_
-<br />_this may be my new home lol_
+<br />_this community could easily become my new home lol_
 <br />— [_@shomari.eth_](https://warpcast.com/shomari.eth)
 
 https://warpcast.com/jpfraneto.eth/0xb4974685
@@ -29,10 +29,13 @@ Which is made up from the clanker fees that $hackathon gathers during the last 7
 [@jpfraneto.eth](https://warpcast.com/jpfraneto.eth) offers a very detailed breakdown of what is to be expected of the submissions in the inaugural week for this event.
 
 - [x] Create a NEW version of this website: framesv2.com, that showcases the power of frames v2 and that can serve as an entry point for a developer that is not familiar w/ farcaster.
+<br />__solution ⇨ https://castr.guru/__
 - [x] Create an engaging, beginner-friendly website/webapp/v2frame that gets developers excited
 about Frames v2 and helps them start building immediately.
+<br />__solution ⇨ https://castr.guru/build__
 - [ ] Be that cool friend who introduces you to Frames AND helps you build your first one.
-- [x] Solution MUST be deployed on a public url, w/ a ready-to-clone github repo
+- [x] MUST be deployed on a public url, w/ a ready-to-clone github repo
+<br />__solution ⇨ https://github.com/castrguru/creator__
 - [x] Farcaster team should be able to point framesv2.com to your deployment and have it
 working instantly
 - [ ] Include clear deployment instructions in README
