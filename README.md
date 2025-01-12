@@ -7,6 +7,8 @@ Desktop application for Windows, macOS and Linux users.
 
 ## $HACKATHON: WEEK ONE
 
+![Hackathon WEEK ONE banner](https://i.ibb.co/8dcFXRP/hackathon-week-one.jpg)
+
 > _hackathons have always been one of my greatest passions in life_
 <br />_i still can't believe Farcaster is crazy enough to make it a WEEKLY thing_
 <br />_this community could easily become my new home lol_
@@ -52,8 +54,8 @@ working instantly
 
 ### Additional Links
 
-- [__DEX Screener__](https://dexscreener.com/base/0x3dF58A5737130FdC180D360dDd3EFBa34e5801cb) is now featuring $HACKATHON/$WETH on Uniswap
 - [__Formal Guidelines for WEEK ONE__](https://docs.google.com/document/d/1AD-uVfWU27ko9zYLGCYbUhRAOJQZv2k3zKV2zrB67ik) via Google Docs
+- [__DEX Screener__](https://dexscreener.com/base/0x3dF58A5737130FdC180D360dDd3EFBa34e5801cb) is now featuring $HACKATHON/$WETH on Uniswap
 
 
 ## Licenses
