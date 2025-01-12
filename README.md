@@ -31,19 +31,41 @@ Which is made up from the clanker fees that $hackathon gathers during the last 7
 [@jpfraneto.eth](https://warpcast.com/jpfraneto.eth) offers a very detailed breakdown of what is to be expected of the submissions in the inaugural week for this event. Provided are the solutions to each of the requirements outlined in the [Formal Guidelines](https://docs.google.com/document/d/1AD-uVfWU27ko9zYLGCYbUhRAOJQZv2k3zKV2zrB67ik).
 
 - [x] Create a NEW version of this website: [framesv2.com](https://framesv2.com/), that showcases the power of frames v2 and that can serve as an entry point for a developer that is not familiar w/ farcaster.
+- [x] A clean, engaging site that makes Frames v2 feel approachable
+- [x] The current framesv2 website has 5 links in it, make sure they
+are somewhere in yours also
+- [x] Link to the official docs for those who want to dive deeper
+- [x] Mobile-friendly design
 <br />__solution ⇨ [castr.guru](https://castr.guru/)__
 - [x] Create an engaging, beginner-friendly website/webapp/v2frame that gets developers excited
 about Frames v2 and helps them start building immediately.
+- [x] Quick-start guide that gets people building in minutes
+- [x] Clear explanations without the technical overload.
 <br />__solution ⇨ [castr.guru/build](https://castr.guru/build/)__
 - [ ] Be that cool friend who introduces you to Frames AND helps you build your first one.
+- [ ] Shows what Frames v2 can do through interactive examples
 - [x] MUST be deployed on a public url, w/ a ready-to-clone github repo
-<br />__solution ⇨ [github.com/castrguru/creator](https://github.com/castrguru/creator)__
+<br />__solution ⇨ [github.com/castrguru/creator](https://github.com/castrguru/creator/)__
 - [x] Farcaster team should be able to point [framesv2.com](https://framesv2.com/) to your deployment and have it
 working instantly
 - [ ] Include clear deployment instructions in README
 - [x] Site MUST be production-ready w/ proper error handling
+- [ ] Your website should also work as a Frame v2 when shared on Farcaster
+- [x] Focus on the "why" and "how" of Frames. What do they enable? What are next steps that
+this could unlock?
+<br />__solution ⇨ [castr.guru/guides/why-frames](https://castr.guru/guides/why-frames/)__
+- [ ] - Include real, working examples that people can play with
+<br />__solution ⇨ [github.com/castrguru](https://github.com/castrguru/)__
+- [ ] Add your personal touch - share tips from your own experience
 - [ ] XXX
 
+### Judging Criteria
+- [ ] Production readiness and deployment quality
+- [x] How quickly can someone go from zero to their first Frame?
+<br />__solution ⇨ 60 seconds from Creator (app) launch to a deployed _(e.g. Orbiter, Netlify, Vercel, etc)_ and publicly-accessible Frame splash screen__
+- [ ] Does it make Frames v2 feel accessible and exciting?
+- [ ] Creative use of Frame v2 features
+- [ ] Overall user experience and design. Mobile friendliness
 
 ### $HACKATHON Token Details
 
@@ -51,10 +73,10 @@ working instantly
 - there are __18__ decimals
 - genesis was on [__2025.01.10 @ 12:01 am__](https://basescan.org/tx/0xdd792ccb3a7bfd35f1b32f1dfac352d7ea161e21cd8fdc1d52b4e87c1e88601a)
 
-
 ### Additional Links
 
 - [__Formal Guidelines for WEEK ONE__](https://docs.google.com/document/d/1AD-uVfWU27ko9zYLGCYbUhRAOJQZv2k3zKV2zrB67ik) via Google Docs
+- Check the following [__wallet__](https://basescan.org/address/0x838eB07d7F2De4a86f43D55d2817702686852BA8) to see the up to date prize money
 - [__DEX Screener__](https://dexscreener.com/base/0x3dF58A5737130FdC180D360dDd3EFBa34e5801cb) is now featuring $HACKATHON/$WETH on Uniswap
 
 
