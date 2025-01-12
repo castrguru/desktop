@@ -62,7 +62,7 @@ this could unlock?
 ### Judging Criteria
 - [ ] Production readiness and deployment quality
 - [x] How quickly can someone go from zero to their first Frame?
-<br />__solution ⇨ 60 seconds from Creator (app) launch to a deployed _(e.g. Orbiter, Netlify, Vercel, etc)_ and publicly-accessible Frame splash screen__
+<br />__↳ It takes under 60 seconds from Creator (app) launch ⇨ to an automated production deployment _(e.g. Orbiter, Netlify, Vercel, etc)_ ⇨ to a publicly-accessible Frame splash screen__
 - [ ] Does it make Frames v2 feel accessible and exciting?
 - [ ] Creative use of Frame v2 features
 - [ ] Overall user experience and design. Mobile friendliness
