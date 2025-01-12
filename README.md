@@ -1,8 +1,8 @@
-# Castr GÜRŲ Desktop
+# Castr GÜRŲ Creator
 
-### https://castr.guru/desktop
+### https://castr.guru/creator
 
-Desktop app for Windows, macOS and Linux users.
+Desktop application for Windows, macOS and Linux users.
 
 
 ## $HACKATHON: WEEK ONE
@@ -24,11 +24,32 @@ One winner takes all the pot.
 Which is made up from the clanker fees that $hackathon gathers during the last 7 days.
 ```
 
-
-## Preparation
+### Event Preparation
 
 [@jpfraneto.eth](https://warpcast.com/jpfraneto.eth) offers a very detailed breakdown of what is to be expected in for the innagural week of this event.
 
 - [ ] MUST xxx
 - [ ] MUST yyy
 - [ ] MUST zzz
+
+
+### $HACKATHON Token Details
+
+- its address is [__0x3dF58A5737130FdC180D360dDd3EFBa34e5801cb__](https://basescan.org/token/0x3dF58A5737130FdC180D360dDd3EFBa34e5801cb)
+- there are __18__ decimals
+- genesis was on [__2025.01.10 @ 12:01 am__](https://basescan.org/tx/0xdd792ccb3a7bfd35f1b32f1dfac352d7ea161e21cd8fdc1d52b4e87c1e88601a)
+
+
+### Additional Links
+
+- [__DEX Screener__](https://dexscreener.com/base/0x3dF58A5737130FdC180D360dDd3EFBa34e5801cb) is now featuring $HACKATHON/$WETH on Uniswap
+
+
+## Licenses
+
+Castr GÜRŲ Creator is DUAL-licensed:
+
+- The source code is available under the [__MIT license__](LICENSE).
+- ALL media assets _(images, audio & video files, etc.)_ are [__CC BY-SA 4.0__](https://creativecommons.org/licenses/by-sa/4.0/).
+<br />⚠️ __ATTRIBUTION IS REQUIRED__ _(for unlicensed frames)_ ⚠️
+<br />You can attribute them to `Castr GÜRŲ - https://castr.guru/`.
