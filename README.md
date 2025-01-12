@@ -26,11 +26,18 @@ Which is made up from the clanker fees that $hackathon gathers during the last 7
 
 ### Event Preparation
 
-[@jpfraneto.eth](https://warpcast.com/jpfraneto.eth) offers a very detailed breakdown of what is to be expected in for the innagural week of this event.
+[@jpfraneto.eth](https://warpcast.com/jpfraneto.eth) offers a very detailed breakdown of what is to be expected of the submissions in the inaugural week for this event.
 
-- [ ] MUST xxx
-- [ ] MUST yyy
-- [ ] MUST zzz
+- [x] Create a NEW version of this website: framesv2.com, that showcases the power of frames v2 and that can serve as an entry point for a developer that is not familiar w/ farcaster.
+- [x] Create an engaging, beginner-friendly website/webapp/v2frame that gets developers excited
+about Frames v2 and helps them start building immediately.
+- [ ] Be that cool friend who introduces you to Frames AND helps you build your first one.
+- [x] Solution MUST be deployed on a public url, w/ a ready-to-clone github repo
+- [x] Farcaster team should be able to point framesv2.com to your deployment and have it
+working instantly
+- [ ] Include clear deployment instructions in README
+- [x] Site MUST be production-ready w/ proper error handling
+- [ ] XXX
 
 
 ### $HACKATHON Token Details
@@ -43,6 +50,7 @@ Which is made up from the clanker fees that $hackathon gathers during the last 7
 ### Additional Links
 
 - [__DEX Screener__](https://dexscreener.com/base/0x3dF58A5737130FdC180D360dDd3EFBa34e5801cb) is now featuring $HACKATHON/$WETH on Uniswap
+- [__Formal Guidelines for WEEK ONE__](https://docs.google.com/document/d/1AD-uVfWU27ko9zYLGCYbUhRAOJQZv2k3zKV2zrB67ik) via Google Docs
 
 
 ## Licenses
