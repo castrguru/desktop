@@ -1,8 +1,8 @@
 {
-  "name": "castrguru-creator",
+  "name": "castrguru-studio",
   "license": "MIT",
-  "version": "25.1.12",
-  "description": "A complete low-no code solution for frame building on Farcaster.",
+  "version": "25.1.13",
+  "description": "A complete low-no code studio for building interactive frames on Farcaster.",
   "author": "Castr GÜRŲ",
   "type": "module",
   "scripts": {

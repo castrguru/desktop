@@ -1,8 +1,8 @@
-# Castr GÜRŲ Creator
+# Castr GÜRŲ Studio
 
-### https://castr.guru/creator
+### https://castr.guru/studio
 
-Desktop application for Windows, macOS and Linux users.
+Design. Create. Deploy Farcaster frames effortlessly with a lightweight application that runs directly on your Windows, macOS or Linux desktop.
 
 
 ## $HACKATHON: WEEK ONE
@@ -45,7 +45,7 @@ about Frames v2 and helps them start building immediately.
 - [ ] Be that cool friend who introduces you to Frames AND helps you build your first one.
 - [ ] Shows what Frames v2 can do through interactive examples
 - [x] MUST be deployed on a public url, w/ a ready-to-clone github repo
-<br />__solution ⇨ [github.com/castrguru/creator](https://github.com/castrguru/creator/)__
+<br />__solution ⇨ [github.com/castrguru/studio](https://github.com/castrguru/studio/)__
 - [x] Farcaster team should be able to point [framesv2.com](https://framesv2.com/) to your deployment and have it
 working instantly
 - [ ] Include clear deployment instructions in README
@@ -62,7 +62,7 @@ this could unlock?
 ### Judging Criteria
 - [ ] Production readiness and deployment quality
 - [x] How quickly can someone go from zero to their first Frame?
-<br />__↳ It takes under 60 seconds from Creator (app) launch ⇨ to an automated production deployment _(e.g. Orbiter, Netlify, Vercel, etc)_ ⇨ to a publicly-accessible Frame splash screen.__
+<br />__↳ It takes under 60 seconds from Studio (app) launch ⇨ to an automated production deployment _(e.g. Orbiter, Netlify, Vercel, etc)_ ⇨ to a publicly-accessible Frame splash screen.__
 - [ ] Does it make Frames v2 feel accessible and exciting?
 - [ ] Creative use of Frame v2 features
 - [ ] Overall user experience and design. Mobile friendliness
@@ -91,7 +91,7 @@ elements do you have access to as a developer? What is the power of those?
 
 ## Licenses
 
-Castr GÜRŲ Creator is DUAL-licensed:
+Castr GÜRŲ Studio is DUAL-licensed:
 
 - The source code is available under the [__MIT license__](LICENSE).
 - ALL media assets _(images, audio & video files, etc.)_ are [__CC BY-SA 4.0__](https://creativecommons.org/licenses/by-sa/4.0/).

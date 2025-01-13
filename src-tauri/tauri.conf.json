@@ -1,8 +1,8 @@
 {
   "$schema": "https://schema.tauri.app/config/2",
-  "productName": "creator",
-  "version": "0.1.0",
-  "identifier": "guru.castr.creator",
+  "productName": "studio",
+  "version": "25.1.13",
+  "identifier": "guru.castr.studio",
   "build": {
     "beforeDevCommand": "yarn dev",
     "devUrl": "http://localhost:1420",
@@ -12,8 +12,8 @@
   "app": {
     "windows": [
       {
-        "title": "creator",
-        "width": 800,
+        "title": "studio",
+        "width": 950,
         "height": 600
       }
     ],
