@@ -19,24 +19,33 @@ async function greet() {
 </script>
 
 <template>
-    <main class="w-screen h-screen bg-gradient-to-b from-stone-800 to-slate-800">
-        <h1 class="text-5xl text-slate-200 tracking-widest">
-            Castr GÜRŲ Studio
-        </h1>
+    <main class="w-screen h-screen bg-gradient-to-b from-stone-800 to-slate-800 overflow-x-hidden">
+        <section>
+            <div class="py-5 flex justify-center items-center gap-4">
+                <img src="./assets/icon.svg" class="size-10" />
 
-        <p class="text-xl text-slate-200">
-            Click on the <span className="text-3xl font-bold">GURU</span>, Vite, and Vue logos to learn more.
-        </p>
+                <h1 class="text-5xl text-slate-200 tracking-widest">
+                    Castr GÜRŲ Studio
+                </h1>
+            </div>
 
-        <form class="row" @submit.prevent="greet">
-            <input id="greet-input" v-model="name" placeholder="Enter a name..." />
-            <button type="submit" class="text-xl text-slate-200">Greet</button>
-        </form>
 
-        <p v-if="greetMsg.length > 1" className="p-5 bg-rose-200 text-2xl font-bold text-sky-800 tracking-widest leading-9 text-pretty">
-            {{ greetMsg }}
-        </p>
+            <p class="text-xl text-slate-200">
+                Click on the <span className="text-3xl font-bold">GURU</span>, Vite, and Vue logos to learn more.
+            </p>
 
-        <Menu />
+            <form class="row" @submit.prevent="greet">
+                <input id="greet-input" v-model="name" placeholder="Enter a name..." />
+                <button type="submit" class="text-xl text-slate-200">Greet</button>
+            </form>
+
+            <p v-if="greetMsg.length > 1" className="p-5 bg-rose-200 text-2xl font-bold text-sky-800 tracking-widest leading-9 text-pretty">
+                {{ greetMsg }}
+            </p>
+        </section>
+
+        <section class="py-10 px-3">
+            <Menu />
+        </section>
     </main>
 </template>

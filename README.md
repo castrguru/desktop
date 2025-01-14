@@ -2,7 +2,7 @@
 
 ### https://castr.guru/studio
 
-Design. Create. Deploy Farcaster frames effortlessly with a lightweight application that runs directly on your Windows, macOS or Linux desktop.
+Build. Publish. Monetize Farcaster frames effortlessly with a lightweight application that runs directly on your Windows, macOS or Linux desktop.
 
 
 ## $HACKATHON: WEEK ONE

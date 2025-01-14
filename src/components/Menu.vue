@@ -12,7 +12,7 @@
             </div>
 
             <div class="mt-8">
-                <h3 class="text-base font-semibold text-gray-900">
+                <h3 class="text-4xl font-semibold text-slate-600 tracking-tighter">
                     <a :href="action.href" class="focus:outline-none">
                         <!-- Extend touch target to entire panel -->
                         <span class="absolute inset-0" aria-hidden="true" />
@@ -20,8 +20,13 @@
                     </a>
                 </h3>
 
-                <p class="mt-2 text-sm text-gray-500">
-                    Doloribus dolores nostrum quia qui natus officia quod et dolorem. Sit repellendus qui ut at blanditiis et quo et molestiae.
+                <p class="mt-2 text-base text-slate-500 tracking-wide">
+                    <span v-if="action.description">
+                        {{ action.description }}
+                    </span>
+                    <span v-else>
+                        Doloribus dolores nostrum quia qui natus officia quod et dolorem. Sit repellendus qui ut at blanditiis et quo et molestiae.
+                    </span>
                 </p>
             </div>
 
@@ -46,7 +51,8 @@ import {
 
 const actions = [
     {
-        title: 'Request time off',
+        title: 'Frameify',
+        description: `Instantly package & deploy ANY publicly accessible website into a Farcaster frame.`,
         href: '#',
         icon: ClockIcon,
         iconForeground: 'text-teal-700',
