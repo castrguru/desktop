@@ -3,13 +3,13 @@
   "license": "MIT",
   "version": "25.1.14",
   "description": "A complete low-no code studio for building interactive frames on Farcaster.",
-  "author": "Castr GÜRŲ",
+  "author": "GÜRŲS DAO",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
     "preview": "vite preview",
-    "tauri": "tauri"
+    "tauri": "tauri dev"
   },
   "dependencies": {
     "@tauri-apps/api": "2",
