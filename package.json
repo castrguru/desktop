@@ -1,7 +1,7 @@
 {
   "name": "castrguru-studio",
   "license": "MIT",
-  "version": "25.1.13",
+  "version": "25.1.14",
   "description": "A complete low-no code studio for building interactive frames on Farcaster.",
   "author": "Castr GÜRŲ",
   "type": "module",
@@ -12,15 +12,18 @@
     "tauri": "tauri"
   },
   "dependencies": {
-    "vue": "3.5.13",
     "@tauri-apps/api": "2",
-    "@tauri-apps/plugin-opener": "2"
+    "@tauri-apps/plugin-opener": "2",
+    "autoprefixer": "10.4.20",
+    "postcss-cli": "11.0.0",
+    "tailwindcss": "3.4.17",
+    "vue": "3.5.13"
   },
   "devDependencies": {
+    "@tauri-apps/cli": "2",
     "@vitejs/plugin-vue": "5.2.1",
     "typescript": "5.6.2",
     "vite": "6.0.3",
-    "vue-tsc": "2.1.10",
-    "@tauri-apps/cli": "2"
+    "vue-tsc": "2.1.10"
   }
 }
