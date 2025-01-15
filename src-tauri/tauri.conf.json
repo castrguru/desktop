@@ -37,7 +37,7 @@
     "updater": {
       "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IDE3NUM1M0E3N0QwOTE5MkMKUldRc0dRbDlwMU5jRjBTNFNLUFR0cGVzTzNxa0hpeDh0YTV6MjBCZnMzenZzTFY5cmc1NzY5aTQK",
       "endpoints": [
-        "https://cdn.crabnebula.app/update/hos/castrguru/{{target}}-{{arch}}/{{current_version}}"
+        "https://cdn.crabnebula.app/update/gurus/studio/{{target}}-{{arch}}/{{current_version}}"
       ]
     }
   }
