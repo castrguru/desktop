@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 
 import AboutView from '../screens/AboutView.vue'
+import ElementsView from '../screens/ElementsView.vue'
 import FrameifyView from '../screens/FrameifyView.vue'
 import HomeView from '../screens/HomeView.vue'
 
@@ -16,6 +17,11 @@ const router = createRouter({
             path: '/about',
             name: 'about',
             component: AboutView,
+        },
+        {
+            path: '/elements',
+            name: 'elements',
+            component: ElementsView,
         },
         {
             path: '/frameify',

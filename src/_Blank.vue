@@ -1,5 +1,5 @@
 <template>
-    <main class="max-w-5xl mx-auto py-5 flex flex-col gap-4">
+    <main class="bg-white max-w-5xl mx-auto flex flex-col gap-4">
         <h1 class="text-5xl font-medium">
             Blank
         </h1>

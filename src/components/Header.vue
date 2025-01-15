@@ -3,7 +3,9 @@
         <nav class="mx-auto flex max-w-7xl items-center justify-between px-6 py-2 lg:px-8 border-b border-fuchsia-700" aria-label="Global">
             <div class="flex lg:flex-1">
                 <div class="py-3 flex justify-center items-center gap-4">
-                    <img src="../assets/icon.svg" class="size-10" />
+                    <RouterLink to="/" @click="mobileMenuOpen = false">
+                        <img src="../assets/icon.svg" class="size-10" />
+                    </RouterLink>
 
                     <h1 class="text-4xl text-fuchsia-900 tracking-tighter">
                         Castr GÜRŲ Studio
@@ -24,7 +26,7 @@
 
             <DialogPanel class="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
                 <div class="flex items-center justify-between">
-                    <RouterLink to="/" class="-m-1.5 p-1.5">
+                    <RouterLink to="/" @click="mobileMenuOpen = false" class="-m-1.5 p-1.5">
                         <span class="sr-only">Castr GÜRŲ Studio</span>
                         <img
                             class="h-8 w-auto"
@@ -47,7 +49,7 @@
                                 Frameify
                             </RouterLink>
 
-                            <RouterLink to="/" @click="mobileMenuOpen = false" class="flex gap-3 items-center -mx-3 block rounded-lg px-3 py-2 text-2xl/7 font-semibold text-slate-600 tracking-wider hover:bg-gray-50">
+                            <RouterLink to="/elements" @click="mobileMenuOpen = false" class="flex gap-3 items-center -mx-3 block rounded-lg px-3 py-2 text-2xl/7 font-semibold text-slate-600 tracking-wider hover:bg-gray-50">
                                 <SparklesIcon class="size-8" />
                                 Elements
                             </RouterLink>
