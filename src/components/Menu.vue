@@ -1,28 +1,28 @@
 <template>
     <div class="divide-y divide-gray-200 overflow-hidden bg-gray-200 shadow sm:grid sm:grid-cols-2 sm:gap-px sm:divide-y-0">
         <div
-            v-for="action in actions"
-            :key="action.title"
+            v-for="screen in screens"
+            :key="screen.title"
             class="group relative bg-white p-6 focus-within:ring-2 focus-within:ring-inset focus-within:ring-fuchsia-500"
         >
             <div>
-                <span :class="[action.iconBackground, action.iconForeground, 'inline-flex p-3 ring-4 ring-white']">
-                    <component :is="action.icon" class="size-6" aria-hidden="true" />
+                <span :class="[screen.iconBackground, screen.iconForeground, 'border inline-flex p-1.5 ring-4 ring-white rounded']">
+                    <component :is="screen.icon" class="size-8 opacity-70" aria-hidden="true" />
                 </span>
             </div>
 
-            <div class="mt-8">
+            <div class="mt-3">
                 <h3 class="text-4xl font-semibold text-slate-600 tracking-tighter">
-                    <RouterLink :to="action.href" class="focus:outline-none">
+                    <RouterLink :to="screen.href" class="focus:outline-none">
                         <!-- Extend touch target to entire panel -->
                         <span class="absolute inset-0" aria-hidden="true" />
-                        {{ action.title }}
+                        {{ screen.title }}
                     </RouterLink>
                 </h3>
 
                 <p class="mt-2 text-base text-slate-500 tracking-wide">
-                    <span v-if="action.description">
-                        {{ action.description }}
+                    <span v-if="screen.description">
+                        {{ screen.description }}
                     </span>
                     <span v-else>
                         Doloribus dolores nostrum quia qui natus officia quod et dolorem. Sit repellendus qui ut at blanditiis et quo et molestiae.
@@ -43,74 +43,82 @@
 import {
     AcademicCapIcon,
     BanknotesIcon,
+    BookOpenIcon,
     CheckBadgeIcon,
     ClockIcon,
     ReceiptRefundIcon,
-    UsersIcon
+    RectangleGroupIcon,
+    RectangleStackIcon,
+    RocketLaunchIcon,
+    SparklesIcon,
+    SwatchIcon,
+    UserGroupIcon,
+    UsersIcon,
 } from '@heroicons/vue/24/outline'
 
-const actions = [
+const screens = [
     {
         title: 'Frameify',
         description: `Instantly package & deploy ANY publicly accessible website into a Farcaster frame.`,
         href: 'frameify',
-        icon: ClockIcon,
-        iconForeground: 'text-teal-700',
-        iconBackground: 'bg-teal-50',
+        icon: RectangleGroupIcon,
+        iconForeground: 'text-amber-700',
+        iconBackground: 'bg-amber-50 border-amber-700/30',
+    },
+    {
+        title: 'Frame Kits',
+        description: `Start building your next project from one of our amazing templates.`,
+        href: 'kits',
+        icon: RectangleStackIcon,
+        iconForeground: 'text-rose-700',
+        iconBackground: 'bg-rose-50 border-rose-700/30',
+    },
+    {
+        title: 'Deployments',
+        href: 'deploy',
+        icon: RocketLaunchIcon,
+        iconForeground: 'text-sky-700',
+        iconBackground: 'bg-sky-50 border-sky-700/30',
+    },
+    {
+        title: 'Monetize',
+        description: `Learn how to profit from your hard work.`,
+        href: 'monetize',
+        icon: BanknotesIcon,
+        iconForeground: 'text-green-700',
+        iconBackground: 'bg-green-50 border-green-700/30',
     },
     {
         title: 'Elements',
         description: `The perfect resource for builders in need of content to add to their frames.`,
         href: 'elements',
-        icon: CheckBadgeIcon,
+        icon: SparklesIcon,
         iconForeground: 'text-purple-700',
-        iconBackground: 'bg-purple-50',
-    },
-    {
-        title: 'Concierge',
-        description: `We're ready to help you with whatever your needs, regardless of how long it takes.`,
-        href: 'home',
-        icon: UsersIcon,
-        iconForeground: 'text-sky-700',
-        iconBackground: 'bg-sky-50',
-    },
-    {
-        title: 'Monetize',
-        href: 'home',
-        icon: BanknotesIcon,
-        iconForeground: 'text-yellow-700',
-        iconBackground: 'bg-yellow-50',
-    },
-    {
-        title: 'Concierge 2',
-        description: `We're ready to help you with whatever your needs, regardless of how long it takes.`,
-        href: 'home',
-        icon: UsersIcon,
-        iconForeground: 'text-sky-700',
-        iconBackground: 'bg-sky-50',
-    },
-    {
-        title: 'Monetize 2',
-        href: 'home',
-        icon: BanknotesIcon,
-        iconForeground: 'text-yellow-700',
-        iconBackground: 'bg-yellow-50',
+        iconBackground: 'bg-purple-50 border-purple-700/30',
     },
     {
         title: 'Components',
         description: `Browse through a library of curated scripts, already packaged for you to copy and drop-in to your dApps.`,
-        href: 'home',
-        icon: ReceiptRefundIcon,
+        href: 'components',
+        icon: SwatchIcon,
         iconForeground: 'text-rose-700',
-        iconBackground: 'bg-rose-50',
+        iconBackground: 'bg-rose-50 border-rose-700/30',
+    },
+    {
+        title: 'Concierge',
+        description: `We're ready to help you with whatever your needs, regardless of how long it takes.`,
+        href: 'concierge',
+        icon: UserGroupIcon,
+        iconForeground: 'text-sky-700',
+        iconBackground: 'bg-sky-50 border-sky-700/30',
     },
     {
         title: 'User Guides',
         description: `Convenient access to some of the best walk-though tutorials, covering everything from apples to zebras.`,
-        href: 'home',
-        icon: AcademicCapIcon,
+        href: 'guides',
+        icon: BookOpenIcon,
         iconForeground: 'text-fuchsia-700',
-        iconBackground: 'bg-fuchsia-50',
+        iconBackground: 'bg-fuchsia-50 border-fuchsia-700/30',
     },
 ]
 </script>

@@ -43,7 +43,7 @@
                 </div>
 
                 <section class="my-3 px-5 py-2 bg-fuchsia-50 border-y border-fuchsia-200">
-                    <form class="mt-2 flex gap-3" @submit.prevent="greet">
+                    <form class="mt-0 flex gap-3" @submit.prevent="greet">
                         <input 
                             class="w-2/3 px-3 py-1 outline-none border border-fuchsia-200 rounded tracking-widest text-fuchsia-900 font-mono" 
                             v-model="name" 
@@ -55,7 +55,7 @@
                         </button>
                     </form>
 
-                    <p v-if="greetMsg?.length > 1" className="my-2 p-3 bg-rose-50 border border-rose-100 rounded text-xl/7 font-medium text-rose-500/80 tracking-tight text-pretty">
+                    <p v-if="greetMsg?.length > 1" className="mt-2 p-3 bg-rose-900 border border-rose-700 rounded text-xl/7 font-medium text-rose-100/90 tracking-tight text-pretty">
                         {{ greetMsg }}
                     </p>
                 </section>
@@ -68,13 +68,13 @@
                                 Frameify
                             </RouterLink>
 
-                            <RouterLink to="/elements" @click="mobileMenuOpen = false" class="flex gap-3 items-center -mx-3 block rounded-lg px-3 py-2 text-2xl/7 font-semibold text-slate-600 tracking-wider hover:bg-fuchsia-50">
+                            <!-- <RouterLink to="/elements" @click="mobileMenuOpen = false" class="flex gap-3 items-center -mx-3 block rounded-lg px-3 py-2 text-2xl/7 font-semibold text-slate-600 tracking-wider hover:bg-fuchsia-50">
                                 <SparklesIcon class="size-8 text-fuchsia-700" />
                                 Elements
-                            </RouterLink>
+                            </RouterLink> -->
 
                             <RouterLink to="/about" @click="mobileMenuOpen = false" class="flex gap-3 items-center -mx-3 block rounded-lg px-3 py-2 text-2xl/7 font-semibold text-slate-600 tracking-wider hover:bg-fuchsia-50">
-                                <AcademicCapIcon class="size-8 text-fuchsia-700" />
+                                <BuildingLibraryIcon class="size-8 text-fuchsia-700" />
                                 GÜRŲS DAO
                             </RouterLink>
                         </div>
@@ -88,7 +88,7 @@
 <script setup>
 import { ref } from 'vue'
 import { Dialog, DialogPanel, Disclosure, DisclosureButton, DisclosurePanel, Popover, PopoverButton, PopoverGroup, PopoverPanel } from '@headlessui/vue'
-import { AcademicCapIcon, RectangleGroupIcon, SparklesIcon } from '@heroicons/vue/24/solid'
+import { BuildingLibraryIcon, RectangleGroupIcon, SparklesIcon } from '@heroicons/vue/24/solid'
 import { ArrowPathIcon, Bars3Icon, ChartPieIcon, CursorArrowRaysIcon, FingerPrintIcon, SquaresPlusIcon, UserCircleIcon, XMarkIcon } from '@heroicons/vue/24/outline'
 import { ChevronDownIcon, PhoneIcon, PlayCircleIcon } from '@heroicons/vue/20/solid'
 

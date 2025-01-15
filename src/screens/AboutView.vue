@@ -1,7 +1,9 @@
 <template>
     <div class="bg-white px-6 py-12 lg:px-8">
         <div class="mx-auto max-w-3xl text-base/7 text-gray-700">
-            <p class="text-base/7 font-semibold text-fuchsia-600">GÜRŲS DAO</p>
+            <p class="text-base/7 font-semibold text-fuchsia-600">
+                GÜRŲS DAO
+            </p>
 
             <h1 class="mt-2 text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">
                 About GÜRŲS DAO
