@@ -1,10 +1,10 @@
 <template>
-    <main class="w-screen h-screen bg-gradient-to-b from-stone-800 to-slate-800 flex flex-col justify-between overflow-x-hidden">
+    <main class="w-screen h-screen bg-gradient-to-b from-stone-800 to-slate-800 flex flex-col justify-between">
         <div class="flex">
             <Header />
         </div>
 
-        <section class="flex-1 h-full overflow-y-scroll">
+        <section class="flex-1 h-full overflow-x-hidden overflow-y-scroll">
             <RouterView />
         </section>
 
