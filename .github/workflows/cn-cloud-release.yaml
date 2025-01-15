@@ -1,4 +1,4 @@
-name: Tauri v2 Release Process
+name: CrabNebula Cloud Release
 on:
   push:
     branches:
