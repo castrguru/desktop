@@ -1,5 +1,5 @@
 <template>
-    <header class="bg-white">
+    <header class="w-full bg-white">
         <nav class="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
             <div class="flex lg:flex-1">
                 <!-- <a href="#" class="-m-1.5 p-1.5">
@@ -136,10 +136,10 @@
                             <section>
                                 <form class="row" @submit.prevent="greet">
                                     <input id="greet-input" v-model="name" placeholder="Enter a name..." />
-                                    <button type="submit" class="text-xl text-slate-200">Greet</button>
+                                    <button type="submit" class="text-2xl text-slate-800">Greet</button>
                                 </form>
 
-                                <p v-if="greetMsg.length > 1" className="p-5 bg-rose-200 text-2xl font-bold text-sky-800 tracking-widest leading-9 text-pretty">
+                                <p v-if="greetMsg?.length > 1" className="p-5 bg-rose-200 text-2xl font-bold text-sky-800 tracking-widest leading-9 text-pretty">
                                     {{ greetMsg }}
                                 </p>
                             </section>
@@ -161,21 +161,24 @@ import { Dialog, DialogPanel, Disclosure, DisclosureButton, DisclosurePanel, Pop
 import { ArrowPathIcon, Bars3Icon, ChartPieIcon, CursorArrowRaysIcon, FingerPrintIcon, SquaresPlusIcon, XMarkIcon } from '@heroicons/vue/24/outline'
 import { ChevronDownIcon, PhoneIcon, PlayCircleIcon } from '@heroicons/vue/20/solid'
 
-// import { ref } from 'vue'
-// import { invoke } from '@tauri-apps/api/core'
+import { invoke } from '@tauri-apps/api/core'
 
-// const greetMsg = ref('')
-// const name = ref('')
+const greetMsg = ref(null)
+const name = ref(null)
 
-// async function greet() {
-//     if (name.value === '') {
-//         greetMsg.value = ''
-//         return
-//     }
+const greet = async () => {
+    /* Validate (Tauri) invoke. */
+    if (typeof invoke === 'undefined') {
+        return alert('You CANNOT use Tauri functions here.')
+    }
 
-//     // Learn more about Tauri commands at https://tauri.app/develop/calling-rust/
-//     greetMsg.value = await invoke('greet', { name: name.value })
-// }
+    if (name.value === '') {
+        return greetMsg.value = ''
+    }
+
+    /* Call Rust (backend). */
+    greetMsg.value = await invoke('greet', { name: name.value })
+}
 
 const products = [
     { name: 'Analytics', description: 'Get a better understanding of your traffic', href: '#', icon: ChartPieIcon },

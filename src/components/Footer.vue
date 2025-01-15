@@ -1,16 +1,16 @@
 <template>
     <footer class="w-full bg-gray-900">
-        <div class="px-6 py-2 flex items-center justify-between">
+        <div class="pl-3 pr-6 py-2 flex items-center justify-between">
+            <p class="mt-0 text-center text-xs/6 text-gray-400 md:order-1 tracking-wider">
+                &copy; 2025 GÜRŲS DAO. All rights reserved.
+            </p>
+
             <div class="flex justify-center gap-x-6 md:order-2">
                 <a v-for="item in navigation" :key="item.name" :href="item.href" class="text-gray-400 hover:text-gray-300">
                     <span class="sr-only">{{ item.name }}</span>
                     <component :is="item.icon" class="size-5" aria-hidden="true" />
                 </a>
             </div>
-
-            <p class="mt-0 text-center text-xs/6 text-gray-400 md:order-1">
-                &copy; 2025 GÜRŲS DAO. All rights reserved.
-            </p>
         </div>
     </footer>
 </template>
