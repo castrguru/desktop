@@ -12,8 +12,8 @@
   "app": {
     "windows": [
       {
-        "title": "studio",
-        "width": 950,
+        "title": "Castr GÜRŲ Studio",
+        "width": 640,
         "height": 600
       }
     ],
