@@ -4,9 +4,9 @@
             <Header />
         </div>
 
-        <div class="flex-1 h-full overflow-y-scroll">
+        <section class="flex-1 h-full overflow-y-scroll">
             <RouterView />
-        </div>
+        </section>
 
         <div class="flex">
             <Footer />
@@ -19,3 +19,16 @@
 import Footer from './components/Footer.vue'
 import Header from './components/Header.vue'
 </script>
+
+<style>
+/* global window */
+section::-webkit-scrollbar {
+    /* display: none; */
+    width: 4px;
+    height: 8px;
+    background-color: #994dcf; /* or add it to the track */
+}
+section::-webkit-scrollbar-thumb {
+    background: #d9bfeb;
+}
+</style>
