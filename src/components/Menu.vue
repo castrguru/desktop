@@ -3,7 +3,7 @@
         <div
             v-for="action in actions"
             :key="action.title"
-            class="group relative bg-white p-6 focus-within:ring-2 focus-within:ring-inset focus-within:ring-indigo-500"
+            class="group relative bg-white p-6 focus-within:ring-2 focus-within:ring-inset focus-within:ring-fuchsia-500"
         >
             <div>
                 <span :class="[action.iconBackground, action.iconForeground, 'inline-flex p-3 ring-4 ring-white']">
@@ -53,7 +53,7 @@ const actions = [
     {
         title: 'Frameify',
         description: `Instantly package & deploy ANY publicly accessible website into a Farcaster frame.`,
-        href: 'home',
+        href: 'frameify',
         icon: ClockIcon,
         iconForeground: 'text-teal-700',
         iconBackground: 'bg-teal-50',
@@ -61,7 +61,7 @@ const actions = [
     {
         title: 'Elements',
         description: `The perfect resource for builders in need of content to add to their frames.`,
-        href: 'about',
+        href: 'elements',
         icon: CheckBadgeIcon,
         iconForeground: 'text-purple-700',
         iconBackground: 'bg-purple-50',
@@ -69,14 +69,14 @@ const actions = [
     {
         title: 'Concierge',
         description: `We're ready to help you with whatever your needs, regardless of how long it takes.`,
-        href: '#',
+        href: 'home',
         icon: UsersIcon,
         iconForeground: 'text-sky-700',
         iconBackground: 'bg-sky-50',
     },
     {
         title: 'Monetize',
-        href: '#',
+        href: 'home',
         icon: BanknotesIcon,
         iconForeground: 'text-yellow-700',
         iconBackground: 'bg-yellow-50',
@@ -84,14 +84,14 @@ const actions = [
     {
         title: 'Concierge 2',
         description: `We're ready to help you with whatever your needs, regardless of how long it takes.`,
-        href: '#',
+        href: 'home',
         icon: UsersIcon,
         iconForeground: 'text-sky-700',
         iconBackground: 'bg-sky-50',
     },
     {
         title: 'Monetize 2',
-        href: '#',
+        href: 'home',
         icon: BanknotesIcon,
         iconForeground: 'text-yellow-700',
         iconBackground: 'bg-yellow-50',
@@ -99,7 +99,7 @@ const actions = [
     {
         title: 'Components',
         description: `Browse through a library of curated scripts, already packaged for you to copy and drop-in to your dApps.`,
-        href: '#',
+        href: 'home',
         icon: ReceiptRefundIcon,
         iconForeground: 'text-rose-700',
         iconBackground: 'bg-rose-50',
@@ -107,10 +107,10 @@ const actions = [
     {
         title: 'User Guides',
         description: `Convenient access to some of the best walk-though tutorials, covering everything from apples to zebras.`,
-        href: '#',
+        href: 'home',
         icon: AcademicCapIcon,
-        iconForeground: 'text-indigo-700',
-        iconBackground: 'bg-indigo-50',
+        iconForeground: 'text-fuchsia-700',
+        iconBackground: 'bg-fuchsia-50',
     },
 ]
 </script>
