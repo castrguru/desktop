@@ -9,7 +9,7 @@ concurrency:
   cancel-in-progress: true
 
 env:
-  CN_APPLICATION: "hos/castrguru"
+  CN_APPLICATION: "gurus/studio"
 
 jobs:
   draft:
