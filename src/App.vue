@@ -3,6 +3,7 @@ import { ref } from 'vue'
 import { invoke } from '@tauri-apps/api/core'
 import { RouterView } from 'vue-router'
 
+import Header from './components/Header.vue'
 import Menu from './components/Menu.vue'
 
 const greetMsg = ref('')
@@ -21,6 +22,7 @@ async function greet() {
 
 <template>
     <main class="w-screen h-screen bg-gradient-to-b from-stone-800 to-slate-800 overflow-x-hidden">
+        <Header />
         <RouterView />
         <section>
             <div class="py-5 flex justify-center items-center gap-4">
