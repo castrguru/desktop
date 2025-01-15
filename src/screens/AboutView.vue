@@ -1,7 +1,7 @@
 <template>
     <div class="bg-white px-6 py-12 lg:px-8">
         <div class="mx-auto max-w-3xl text-base/7 text-gray-700">
-            <p class="text-base/7 font-semibold text-indigo-600">GÜRŲS DAO</p>
+            <p class="text-base/7 font-semibold text-fuchsia-600">GÜRŲS DAO</p>
 
             <h1 class="mt-2 text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">
                 About GÜRŲS DAO
@@ -20,19 +20,19 @@
 
                 <ul role="list" class="mt-8 max-w-xl space-y-8 text-gray-600">
                     <li class="flex gap-x-3">
-                        <CheckCircleIcon class="mt-1 size-5 flex-none text-indigo-600" aria-hidden="true" />
+                        <CheckCircleIcon class="mt-1 size-5 flex-none text-fuchsia-600" aria-hidden="true" />
                         <span>
                             <strong class="font-semibold text-gray-900">Data types.</strong> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.
                         </span>
                     </li>
 
                     <li class="flex gap-x-3">
-                        <CheckCircleIcon class="mt-1 size-5 flex-none text-indigo-600" aria-hidden="true" />
+                        <CheckCircleIcon class="mt-1 size-5 flex-none text-fuchsia-600" aria-hidden="true" />
                         <span><strong class="font-semibold text-gray-900">Loops.</strong> Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.</span>
                     </li>
 
                     <li class="flex gap-x-3">
-                        <CheckCircleIcon class="mt-1 size-5 flex-none text-indigo-600" aria-hidden="true" />
+                        <CheckCircleIcon class="mt-1 size-5 flex-none text-fuchsia-600" aria-hidden="true" />
                         <span><strong class="font-semibold text-gray-900">Events.</strong> Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.</span>
                     </li>
                 </ul>
@@ -49,7 +49,7 @@
                     ultrices mauris. Tincidunt enim cursus ridiculus mi. Pellentesque nam sed nullam sed diam turpis ipsum eu a sed convallis diam.
                 </p>
 
-                <figure class="mt-10 border-l border-indigo-600 pl-9">
+                <figure class="mt-10 border-l border-fuchsia-600 pl-9">
                     <blockquote class="font-semibold text-gray-900">
                         <p>
                             “Vel ultricies morbi odio facilisi ultrices accumsan donec lacus purus.
