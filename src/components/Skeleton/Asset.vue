@@ -1,11 +1,11 @@
 <script setup lang="ts">
 /* Define properties. */
 // https://vuejs.org/guide/components/props.html#props-declaration
-const props = defineProps({
-    data: {
-        type: [Object],
-    },
-})
+// const props = defineProps({
+//     data: {
+//         type: [Object],
+//     },
+// })
 
 // onMounted(() => {
 //     console.log('Mounted!')

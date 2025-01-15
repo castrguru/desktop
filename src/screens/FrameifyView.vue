@@ -241,7 +241,7 @@
                                             aria-describedby="comments-description"
                                             name="comments"
                                             type="checkbox"
-                                            checked=""
+                                            checked=false
                                             class="col-start-1 row-start-1 appearance-none rounded border border-gray-300 bg-white checked:border-indigo-600 checked:bg-indigo-600 indeterminate:border-indigo-600 indeterminate:bg-indigo-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 disabled:border-gray-300 disabled:bg-gray-100 disabled:checked:bg-gray-100 forced-colors:appearance-auto"
                                         />
                                         <svg class="pointer-events-none col-start-1 row-start-1 size-3.5 self-center justify-self-center stroke-white group-has-[:disabled]:stroke-gray-950/25" viewBox="0 0 14 14" fill="none">
@@ -309,7 +309,7 @@
                                     id="push-everything"
                                     name="push-notifications"
                                     type="radio"
-                                    checked=""
+                                    checked=false
                                     class="relative size-4 appearance-none rounded-full border border-gray-300 bg-white before:absolute before:inset-1 before:rounded-full before:bg-white checked:border-indigo-600 checked:bg-indigo-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 disabled:border-gray-300 disabled:bg-gray-100 disabled:before:bg-gray-400 forced-colors:appearance-auto forced-colors:before:hidden [&:not(:checked)]:before:hidden"
                                 />
                                 <label for="push-everything" class="block text-sm/6 font-medium text-gray-900">Everything</label>
@@ -352,7 +352,7 @@
 
 <script setup lang="ts">
 import { ref } from 'vue'
-import { PhotoIcon, UserCircleIcon } from '@heroicons/vue/24/solid'
+// import { PhotoIcon, UserCircleIcon } from '@heroicons/vue/24/solid'
 import { ChevronDownIcon } from '@heroicons/vue/16/solid'
 
 import ProviderOptions from '../components/frameify/ProviderOptions.vue'

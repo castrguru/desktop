@@ -41,19 +41,14 @@
 
 <script lang="ts" setup>
 import {
-    AcademicCapIcon,
     BanknotesIcon,
     BookOpenIcon,
-    CheckBadgeIcon,
-    ClockIcon,
-    ReceiptRefundIcon,
     RectangleGroupIcon,
     RectangleStackIcon,
     RocketLaunchIcon,
     SparklesIcon,
     SwatchIcon,
     UserGroupIcon,
-    UsersIcon,
 } from '@heroicons/vue/24/outline'
 
 const screens = [
