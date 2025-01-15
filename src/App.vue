@@ -1,46 +1,20 @@
-<script setup lang="ts">
-import { ref } from 'vue'
-import { invoke } from '@tauri-apps/api/core'
-import { RouterView } from 'vue-router'
-
-import Header from './components/Header.vue'
-
-const greetMsg = ref('')
-const name = ref('')
-
-async function greet() {
-    if (name.value === '') {
-        greetMsg.value = ''
-        return
-    }
-
-    // Learn more about Tauri commands at https://tauri.app/develop/calling-rust/
-    greetMsg.value = await invoke('greet', { name: name.value })
-}
-</script>
-
 <template>
-    <main class="w-screen h-screen bg-gradient-to-b from-stone-800 to-slate-800 overflow-x-hidden">
-        <Header />
-        <section>
-            <p class="text-xl text-slate-200">
-                Click on the <span className="text-3xl font-bold">GURU</span>, Vite, and Vue logos to learn more.
-            </p>
+    <main class="w-screen h-screen bg-gradient-to-b from-stone-800 to-slate-800 flex flex-col justify-between overflow-x-hidden">
+        <!-- <Header /> -->
 
-            <form class="row" @submit.prevent="greet">
-                <input id="greet-input" v-model="name" placeholder="Enter a name..." />
-                <button type="submit" class="text-xl text-slate-200">Greet</button>
-            </form>
+        <div class="flex-1 h-full overflow-y-scroll">
+            <RouterView />
+        </div>
 
-            <p v-if="greetMsg.length > 1" className="p-5 bg-rose-200 text-2xl font-bold text-sky-800 tracking-widest leading-9 text-pretty">
-                {{ greetMsg }}
-            </p>
-        </section>
+        <div class="flex">
+            <Footer />
+        </div>
 
-        <p class="px-10 py-3 text-slate-200 text-xl">
-            <strong>Current route path:</strong> {{ $route.fullPath }}
-        </p>
-        <RouterView />
-        <!-- <Footer /> -->
     </main>
 </template>
+
+<script setup lang="ts">
+/* Import components. */
+import Footer from './components/Footer.vue'
+import Header from './components/Header.vue'
+</script>

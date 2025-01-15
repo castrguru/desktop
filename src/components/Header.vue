@@ -71,8 +71,8 @@
                     Marketplace
                 </RouterLink>
 
-                <RouterLink to="/" class="text-sm/6 font-semibold text-gray-900">
-                    Company
+                <RouterLink to="/about" class="text-sm/6 font-semibold text-gray-900">
+                    About GÜRŲS
                 </RouterLink>
             </PopoverGroup>
 
@@ -113,26 +113,37 @@
                                 </DisclosureButton>
 
                                 <DisclosurePanel class="mt-2 space-y-2">
-                                    <DisclosureButton v-for="item in [...products, ...callsToAction]" :key="item.name" as="a" :href="item.href" class="block rounded-lg py-2 pl-6 pr-3 text-lg/7 font-semibold text-gray-900 hover:bg-gray-50">
+                                    <DisclosureButton v-for="item in [...products, ...callsToAction]" :key="item.name" as="a" :href="item.href" @click="mobileMenuOpen = false" class="block rounded-lg py-2 pl-6 pr-3 text-lg/7 font-semibold text-gray-900 hover:bg-gray-50">
                                         {{ item.name }}
                                     </DisclosureButton>
                                 </DisclosurePanel>
                             </Disclosure>
 
-                            <RouterLink to="/about" class="-mx-3 block rounded-lg px-3 py-2 text-2xl/7 font-semibold text-gray-900 hover:bg-gray-50">
+                            <RouterLink to="/" @click="mobileMenuOpen = false" class="-mx-3 block rounded-lg px-3 py-2 text-2xl/7 font-semibold text-gray-900 hover:bg-gray-50">
                                 Features
                             </RouterLink>
 
-                            <RouterLink to="/" class="-mx-3 block rounded-lg px-3 py-2 text-2xl/7 font-semibold text-gray-900 hover:bg-gray-50">
+                            <RouterLink to="/" @click="mobileMenuOpen = false" class="-mx-3 block rounded-lg px-3 py-2 text-2xl/7 font-semibold text-gray-900 hover:bg-gray-50">
                                 Marketplace
                             </RouterLink>
 
-                            <RouterLink to="/about" class="-mx-3 block rounded-lg px-3 py-2 text-2xl/7 font-semibold text-gray-900 hover:bg-gray-50">
-                                Company
+                            <RouterLink to="/about" @click="mobileMenuOpen = false" class="-mx-3 block rounded-lg px-3 py-2 text-2xl/7 font-semibold text-gray-900 hover:bg-gray-50">
+                                About GÜRŲS
                             </RouterLink>
                         </div>
 
                         <div class="py-6">
+                            <section>
+                                <form class="row" @submit.prevent="greet">
+                                    <input id="greet-input" v-model="name" placeholder="Enter a name..." />
+                                    <button type="submit" class="text-xl text-slate-200">Greet</button>
+                                </form>
+
+                                <p v-if="greetMsg.length > 1" className="p-5 bg-rose-200 text-2xl font-bold text-sky-800 tracking-widest leading-9 text-pretty">
+                                    {{ greetMsg }}
+                                </p>
+                            </section>
+
                             <a href="#" class="-mx-3 block rounded-lg px-3 py-2.5 text-2xl/7 font-semibold text-gray-900 hover:bg-gray-50">
                                 Log in
                             </a>
@@ -149,6 +160,22 @@ import { ref } from 'vue'
 import { Dialog, DialogPanel, Disclosure, DisclosureButton, DisclosurePanel, Popover, PopoverButton, PopoverGroup, PopoverPanel } from '@headlessui/vue'
 import { ArrowPathIcon, Bars3Icon, ChartPieIcon, CursorArrowRaysIcon, FingerPrintIcon, SquaresPlusIcon, XMarkIcon } from '@heroicons/vue/24/outline'
 import { ChevronDownIcon, PhoneIcon, PlayCircleIcon } from '@heroicons/vue/20/solid'
+
+// import { ref } from 'vue'
+// import { invoke } from '@tauri-apps/api/core'
+
+// const greetMsg = ref('')
+// const name = ref('')
+
+// async function greet() {
+//     if (name.value === '') {
+//         greetMsg.value = ''
+//         return
+//     }
+
+//     // Learn more about Tauri commands at https://tauri.app/develop/calling-rust/
+//     greetMsg.value = await invoke('greet', { name: name.value })
+// }
 
 const products = [
     { name: 'Analytics', description: 'Get a better understanding of your traffic', href: '#', icon: ChartPieIcon },
