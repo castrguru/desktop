@@ -1,11 +1,20 @@
+/* Import (main) styles. */
+import './assets/main.css'
+
 /* Import modules. */
 import { createApp } from 'vue'
+import { createPinia } from 'pinia'
 
-/* Import (main) styles. */
-import './main.css'
-
-/* Import application. */
+/* Import (local) modules. */
 import App from './App.vue'
+import router from './router'
 
 /* Create application. */
-createApp(App).mount('#app')
+const app = createApp(App)
+
+/* Add plugins. */
+app.use(createPinia())
+app.use(router)
+
+/* Mount application. */
+app.mount('#app')

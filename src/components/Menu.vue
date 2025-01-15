@@ -13,11 +13,11 @@
 
             <div class="mt-8">
                 <h3 class="text-4xl font-semibold text-slate-600 tracking-tighter">
-                    <a :href="action.href" class="focus:outline-none">
+                    <RouterLink :to="action.href" class="focus:outline-none">
                         <!-- Extend touch target to entire panel -->
                         <span class="absolute inset-0" aria-hidden="true" />
                         {{ action.title }}
-                    </a>
+                    </RouterLink>
                 </h3>
 
                 <p class="mt-2 text-base text-slate-500 tracking-wide">
@@ -53,41 +53,60 @@ const actions = [
     {
         title: 'Frameify',
         description: `Instantly package & deploy ANY publicly accessible website into a Farcaster frame.`,
-        href: '#',
+        href: 'home',
         icon: ClockIcon,
         iconForeground: 'text-teal-700',
         iconBackground: 'bg-teal-50',
     },
     {
-        title: 'Benefits',
-        href: '#',
+        title: 'Elements',
+        description: `The perfect resource for builders in need of content to add to their frames.`,
+        href: 'about',
         icon: CheckBadgeIcon,
         iconForeground: 'text-purple-700',
         iconBackground: 'bg-purple-50',
     },
     {
-        title: 'Schedule a one-on-one',
+        title: 'Concierge',
+        description: `We're ready to help you with whatever your needs, regardless of how long it takes.`,
         href: '#',
         icon: UsersIcon,
         iconForeground: 'text-sky-700',
         iconBackground: 'bg-sky-50',
     },
     {
-        title: 'Payroll',
+        title: 'Monetize',
         href: '#',
         icon: BanknotesIcon,
         iconForeground: 'text-yellow-700',
         iconBackground: 'bg-yellow-50',
     },
     {
-        title: 'Submit an expense',
+        title: 'Concierge 2',
+        description: `We're ready to help you with whatever your needs, regardless of how long it takes.`,
+        href: '#',
+        icon: UsersIcon,
+        iconForeground: 'text-sky-700',
+        iconBackground: 'bg-sky-50',
+    },
+    {
+        title: 'Monetize 2',
+        href: '#',
+        icon: BanknotesIcon,
+        iconForeground: 'text-yellow-700',
+        iconBackground: 'bg-yellow-50',
+    },
+    {
+        title: 'Components',
+        description: `Browse through a library of curated scripts, already packaged for you to copy and drop-in to your dApps.`,
         href: '#',
         icon: ReceiptRefundIcon,
         iconForeground: 'text-rose-700',
         iconBackground: 'bg-rose-50',
     },
     {
-        title: 'Training',
+        title: 'User Guides',
+        description: `Convenient access to some of the best walk-though tutorials, covering everything from apples to zebras.`,
         href: '#',
         icon: AcademicCapIcon,
         iconForeground: 'text-indigo-700',

@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { ref } from 'vue'
 import { invoke } from '@tauri-apps/api/core'
+import { RouterView } from 'vue-router'
 
 import Menu from './components/Menu.vue'
 
@@ -20,6 +21,7 @@ async function greet() {
 
 <template>
     <main class="w-screen h-screen bg-gradient-to-b from-stone-800 to-slate-800 overflow-x-hidden">
+        <RouterView />
         <section>
             <div class="py-5 flex justify-center items-center gap-4">
                 <img src="./assets/icon.svg" class="size-10" />
@@ -43,6 +45,10 @@ async function greet() {
                 {{ greetMsg }}
             </p>
         </section>
+
+        <p class="px-10 py-3 text-slate-200 text-xl">
+            <strong>Current route path:</strong> {{ $route.fullPath }}
+        </p>
 
         <section class="py-10 px-3">
             <Menu />
