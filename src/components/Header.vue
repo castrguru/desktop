@@ -44,14 +44,14 @@
 
                 <section class="my-3 px-5 py-2 bg-fuchsia-50 border-y border-fuchsia-200">
                     <form class="mt-0 flex gap-3" @submit.prevent="greet">
-                        <input 
-                            class="w-2/3 px-3 py-1 outline-none border border-fuchsia-200 rounded tracking-widest text-fuchsia-900 font-mono" 
-                            v-model="name" 
-                            placeholder="Enter a name..." 
+                        <input
+                            class="w-2/3 px-3 py-1 outline-none border border-fuchsia-200 rounded tracking-widest text-fuchsia-900 font-mono"
+                            v-model="name"
+                            placeholder="Enter a name..."
                         />
-                        
-                        <button type="submit" class="px-3 py-1 text-xl text-slate-200 bg-sky-700 shadow rounded hover:text-amber-200 hover:bg-sky-600">
-                            Connect!
+
+                        <button type="submit" class="px-3 py-1 text-lg text-slate-200 bg-sky-700 shadow rounded uppercase hover:text-amber-200 hover:bg-sky-600">
+                            Connect
                         </button>
                     </form>
 
